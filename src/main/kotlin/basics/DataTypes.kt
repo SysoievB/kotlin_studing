@@ -65,4 +65,37 @@ fun main() {
     println(doubleMin)
     println(doubleMax)
 
+    println("<-------------Strings-------------->")
+
+    val text: String = "SALT II was a series of talks between United States \n and Soviet negotiators from 1972 to 1979"
+
+    val stringTemplate: String = """
+                        SALT II was a series of talks between United States
+                        and Soviet negotiators from 1972 to 1979.
+                        It was a continuation of the SALT I talks.
+    """
+
+    val firstName = "Tom"
+    val lastName = "Smith"
+    val welcome = "Hello, $firstName $lastName"
+
+    println(text)
+    println("<------------------------------->")
+    println(stringTemplate)
+    println("<------------------------------->")
+    println(welcome)
+
+    println("<---------------Any---------------->")
+
+    var name: Any = "Tom"
+    println(name)
+
+    name = 12345L
+    println(name)
+
+    var age: Long = 123L
+    println(age)
+
+    var ageInt: Int = age.toInt()
+    println(ageInt)
 }
