@@ -11,3 +11,11 @@ class Variables {
         }
     }
 }
+//Key Differences var, val, and const
+//Feature	        var	                    val	                  const val
+//Mutability	    Mutable (can change)	Immutable (fixed)	  Immutable (fixed)
+//Reassignment	    Allowed	                Not allowed	          Not allowed
+//Initialization	Runtime	                Runtime	              Compile-time
+//Backing Field	    Getter + Setter	        Getter only	          Inlined (no field)
+//Scope	            Anywhere	            Anywhere	          Top-level/object
+//Types Allowed	    Any	                    Any	                  Primitives/String
