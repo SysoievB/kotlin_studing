@@ -20,9 +20,9 @@ fun main() {
 }
 
 // primary constructor
-class Person(val name: String, var age: Int)
+private class Person(val name: String, var age: Int)
 
-class Employee {
+private class Employee {
     val name: String
     var age: Int = 0
     var weight: Double = 0.0
@@ -44,7 +44,7 @@ class Employee {
 }
 
 //initialisation block
-class PersonWithInitBlock(_name: String, _age: Int) {
+private class PersonWithInitBlock(_name: String, _age: Int) {
     val name: String
     var age: Int = 1//this value will be returned if age will be outside range inside init block
 
