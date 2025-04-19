@@ -16,9 +16,9 @@ fun main() {
 
     //!! — Not-null assertion operator
     //Forces the compiler to treat a nullable variable as non-null
-    //If it's actually null → 💥 throws NullPointerException
+    //If it's actually null → throws NullPointerException
     val name1: String? = null
-    val length1 = name!!.length  // ⚠️ Throws NullPointerException if name is null
+    val length1 = name!!.length  // Throws NullPointerException if name is null
 
 }
 private class User(val name: String)
